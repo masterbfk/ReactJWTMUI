@@ -1,6 +1,6 @@
 # Getting Started React App with Windows Auth
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The project primarily makes a request to the specified API endpoint (such as 'api/auth'), using Windows user information for authentication through backend operations, returning a JWT Token. Subsequently, this token, held within the state, enables access to other methods through a method derived from Axios named 'axiosPrivate.' 
 
 ## Available Scripts
 
